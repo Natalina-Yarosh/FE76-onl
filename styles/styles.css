@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.pricing {
+    /* padding: 100px 0;  */
+    background-color: #F5F5F5;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+/* Внутренний контент */
+.pricing__title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.separator {
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto 40px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin-bottom: 79px;
+}
+.pricing__cards{
+    text-align: center;
+}
+.pricing__card {
+    width: 100%;
+   display: inline-block;
+    max-width: 370px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.pricing__card:last-child {
+    margin-right: 0;
+}
+.pricing__tariff {
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    background-color: #333333;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    border: 2px solid #F5F5F5;
+    padding: 13px;
+}
+
+.pricing__price {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    background-color: #333333;
+    padding: 28px;
+
+}
+
+.pricing__note {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    padding: 12.4px;
+}
+
+
+
+.pricing__item {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 22px;
+    color: #86878B;
+    background-color: #FFFFFF;
+    padding: 14px;
+    border-bottom: 2px solid #F5F5F5;
+}
