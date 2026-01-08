@@ -1,57 +1,131 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: "Raleway", sans-serif;
+     font-family: "Raleway", sans-serif;
+     color: #000000;
 }
 
-.pricing {
-    /* padding: 100px 0;  */
-    background-color: #F5F5F5;
+.awesome {
+    padding: 109px 0;
 }
 
 .container {
     max-width: 1200px;
-    padding: 0 15px;
+    width: 100%;
     margin: 0 auto;
-
+    padding: 0 15px;
 }
 
-/* Внутренний контент */
-.pricing__title {
+
+.title {
+    text-align: center;
     font-size: 36px;
     line-height: 42px;
+    margin-bottom: 40px;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 40px;
 }
 
+
 .separator {
-    border: 1px solid #EC7979;
     width: 170px;
+    border: 1px solid #EC7979;
     margin: 0 auto 40px;
 }
+
 
 .text {
     font-size: 18px;
     line-height: 21px;
-    color: #86878B;
     text-align: center;
+    color: #86878B;
+    
+}
+
+.awesome__text--spaced {
+    margin-bottom: 92px;
+}
+
+.awesome__columns {
+    text-align: center;
+}
+
+.awesome__column {
+    display: inline-block;
+    max-width: 371px;
+    width: 100%;
+    margin-right: 10px;
+    
+}
+
+.awesome__column:last-child {
+    margin-right: 0;
+}
+
+
+.awesome__wrapper-icon {
+    width: 92px;
+    height: 92px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+}
+
+
+.awesome__icon--keyboard {
+    max-width: 66px;
+    width: 100%;
+}
+
+
+.awesome__icon--lightning {
+    max-width: 44px;
+    width: 100%;
+}
+
+.awesome__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 26px;
+  
+}
+
+.awesome__text {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+                                    /* Домашняя работа к 3 уроку */
+
+
+.pricing {
+    background-color: #F5F5F5;
+    padding: 82px 0 83px;
+    
+}
+
+.pricing__text--spaced {
     margin-bottom: 79px;
 }
+
 .pricing__cards{
     text-align: center;
 }
 .pricing__card {
+    display: inline-block;
     width: 100%;
-   display: inline-block;
     max-width: 370px;
-    vertical-align: top;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .pricing__card:last-child {
     margin-right: 0;
@@ -64,7 +138,7 @@ body {
     line-height: 34px;
     font-weight: 700;
     border: 2px solid #F5F5F5;
-    padding: 13px;
+    padding: 11px 0;
 }
 
 .pricing__price {
@@ -74,7 +148,7 @@ body {
     color: #FFFFFF;
     border: 2px solid #F5F5F5;
     background-color: #333333;
-    padding: 28px;
+    padding: 27px 0;
 
 }
 
@@ -84,10 +158,8 @@ body {
     color: rgba(255, 255, 255, 0.5);
     background-color: #333333;
     border: 2px solid #F5F5F5;
-    padding: 12.4px;
+    padding: 12px 0;
 }
-
-
 
 .pricing__item {
     list-style: none;
@@ -96,6 +168,6 @@ body {
     line-height: 22px;
     color: #86878B;
     background-color: #FFFFFF;
-    padding: 14px;
+    padding: 13px 0;
     border-bottom: 2px solid #F5F5F5;
 }
