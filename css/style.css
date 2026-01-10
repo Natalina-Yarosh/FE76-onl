@@ -6,6 +6,89 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+
+/*Why this is awesome*/
+.features {
+   /* max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;*/
+    text-align: center;
+    /*font-weight: 400;*/
+}
+.heading {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 92px;
+}
+.heading__title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 40px;
+    /*width: 1170px;
+    height: 45px;*/
+}
+.heading__line {
+    height: 1px;
+    width: 170px;
+    background-color: #EC7979;
+   margin: 40px auto;
+}
+.heading__text {
+    font-size: 18px;
+    color: #86878B;
+    line-height: 21px;
+    /* width: 1169px;
+    height: 21px;*/
+}
+.features__box {
+  display: flex;
+    column-gap: 27px;
+     justify-content: center;
+    align-items: flex-start;
+    /*position: relative;*/
+}
+.feature__wrapper{
+        place-items: center;
+}
+.feature__wrapper-icon{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #EC7979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature__wrapper-icon #Lamp {
+    width: 65px;
+    height: 65px;
+}
+.feature__wrapper-icon #keyboard {
+    width: 66px;
+    height: 46px;
+}
+.feature__wrapper-icon #lightning {
+    width: 44px;
+    height: 65px;
+}
+.feature__title {
+    margin: 24px auto 30px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 26px;
+}
+.feature__text {
+    font-size: 18px;
+    line-height: 1.167;
+    margin-bottom: 104px;
+}
+
+/*Pricing Options*/
 .tariffs{
     background-color: #F5F5F5;
     padding:  82px 0px 83px;
@@ -35,7 +118,7 @@ body{
     color: #86878B; 
     margin-bottom: 79px;
 }
-.tariff__plans{
+.tariffs__plans{
     display: flex;
     column-gap: 30px;
     justify-content: center;
@@ -54,18 +137,18 @@ body{
     line-height: 34px;
    /* width: 370px; /*max-width ?
     height: 60px;*/
-    padding: 13px;
+    padding: 11px 10px;
     color: #FFFFFF;
     background-color: #333333;
    border: 2px solid #F5F5F5;
 }
-.plan__price{
+.tariffs__amount{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     /*width: 370px; /*max-width ?
     height: 100px;*/
-    padding: 29px;
+    padding: 27px 10px;
     color: #FFFFFF;
     background-color: #333333;
     border: 2px solid #F5F5F5;
@@ -75,8 +158,8 @@ body{
     line-height: 22px;
    /* width: 370px; /*max-width ?*
     height: 50px;*/
-    padding: 12px; /*уменьшаем, чтобы попасть в размеры окна 370*100*/
-    color: #FFFFFF;
+    padding: 12px 10px; /*уменьшаем, чтобы попасть в размеры окна 370*100*/
+    color: rgba(255, 255, 255, 50%);
     background-color: #333333;
     border: 2px solid #F5F5F5;
 }
@@ -84,7 +167,7 @@ body{
     list-style-type: none;
     font-size: 18px;
     line-height: 22px;
-    padding: 12px; /*уменьшаем, чтобы попасть в размеры окна 370*50*/
+    padding: 12px 10px; /*уменьшаем, чтобы попасть в размеры окна 370*50*/
     color: #86878B;
     background-color: #FFFFFF;
     border-width: 2px;
