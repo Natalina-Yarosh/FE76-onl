@@ -48,7 +48,7 @@ body {
     
 }
 
-.awesome__text--spaced {
+.text--margin-bottom-92 {
     margin-bottom: 92px;
 }
 
@@ -94,7 +94,6 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    text-align: center;
     margin-bottom: 26px;
   
 }
@@ -102,7 +101,6 @@ body {
 .awesome__text {
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
 }
 
                                     /* Домашняя работа к 3 уроку */
@@ -114,7 +112,7 @@ body {
     
 }
 
-.pricing__text--spaced {
+.text--margin-bottom-79 {
     margin-bottom: 79px;
 }
 
