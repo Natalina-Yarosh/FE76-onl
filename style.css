@@ -57,7 +57,6 @@ body {
 }
 
 .section__descr {
-  line-height: 21px;
   color: #86878B;
 }
 
@@ -96,10 +95,6 @@ body {
   line-height: 33px;
 }
 
-.awesome__descr {
-  line-height: 21px;
-}
-
 /* SECTION PRICING */
 
 .pricing {
@@ -118,14 +113,14 @@ body {
 }
 
 .pricing__plan,
-.pricing__price,
+.pricing__amount,
 .pricing__descr {
   background-color: #333;
   color: #fff;
 }
 
 .pricing__plan,
-.pricing__price,
+.pricing__amount,
 .pricing__descr,
 .pricing__item {
   border: 2px solid #F5F5F5;
@@ -140,7 +135,7 @@ body {
   line-height: 33px;
 }
 
-.pricing__price {
+.pricing__amount {
   padding: 28px 15px 27px;
   font-size: 36px;
   font-weight: 700;
