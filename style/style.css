@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* chrift dlya vsey stranicy  */
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+.h2 {
+	font-family: "Open Sans", sans-serif;
+}
+
+
+
+.razdel_1 {
+	background-color: aliceblue;
+}
+
+.name {
+	width: 406px;
+	height: 42px;
+	font-size: 36px;
+}
+
+.cherta {
+	width: 170px;
+	border-top: 3px solid #EC7979;
+}
+
+.podname {
+	width: 1169px;
+	height: 21px;
+}
+
+.razdel_1,
+.razdel_2,
+.group1,
+.group2,
+.group3,
+.cherta {
+	text-align: center;
+}
+
+
+.group1,
+.group2,
+.group3 {
+	width: 371px;
+	height: 259px;
+}
+
+/* .text1 {
+	text-align: center
+}
+
+.text2 {
+	text-align: center
+} */
+
+/* .razdel_3 { */
+/* text-align: center;} */
+/* chrift dlya h2  */
