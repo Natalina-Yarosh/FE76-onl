@@ -14,7 +14,8 @@ body{
 }
 
 .awesome{
-     padding-top: 109px;
+     padding-top: 100px;
+     padding-bottom: 100px;
 }
  hr{
     width: 170px;
@@ -29,9 +30,6 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-.awesome__box{
-    margin-bottom: 133px;
 }
 .awesome__item{
    
@@ -96,17 +94,11 @@ body{
     text-align: center;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .plans__overview{
     margin-bottom: 79px;
 }
 
-.plan__title{
+.plans__title{
     color: #000000;
     font-size: 36px;
     line-height: 42px;
@@ -115,13 +107,13 @@ body{
     text-transform: uppercase;
 }
 
-.cherta{
+.plans__line{
     width: 170px;
     border-top: 1px solid #EC7979;
     margin: 0 auto 40px;
 }
 
-.plan__subtitle{
+.planx__text{
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
@@ -139,7 +131,7 @@ body{
     font-weight: 700;
     background-color: #333333;
     border: 2px solid #F5F5F5;
-    padding: 14px 0;
+    padding: 11px 0;
    
 }
 
@@ -149,7 +141,7 @@ body{
     line-height: 42px;
     font-weight: 700;
     background-color: #333333;
-    padding: 29px 1px;
+    padding: 27px 10px;
     border: 2px solid #F5F5F5;
   
 }
@@ -159,7 +151,7 @@ body{
     line-height: 22px;
     font-weight: 400;
     background-color: #333333;
-    padding: 14px 0;
+    padding: 12px 0;
     border: 2px solid #F5F5F5;
    
 }
@@ -173,18 +165,18 @@ body{
     line-height: 22px;
     font-weight: 400;
     background-color: #FFFFFF;
-    padding: 14px 0;
+    padding: 12px 10px;
     border: 2px solid #F5F5F5;
     text-transform: capitalize;
    
 }
-.plan__info{
+.plan{
     display: inline-block;
     margin-right: 22px;
     max-width: 370px;
     width: 100%;
     max-width: 370px;
 }
- .plan__info:last-child{
+ .plan:last-child{
     margin-right: 0;
  }
