@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+body {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+img {
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+h2{ 
+    color: #000;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+h4 {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ---AWESOME--- */
+
+.description, .awesome__text {
+    color: #86878B;
+    margin-bottom: 92px;
+    line-height: 21px;
+}
+
+.conteiner {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.divider {
+    height: 1px;
+    width: 170px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-bottom: 42px;
+} 
+
+.awesome{
+    text-align: center;
+}
+.awesome__content{
+    gap: 31px;
+    display: flex;
+}
+.title{
+    margin-bottom: 40px;
+    line-height: 42px;
+}
+
+.divider {
+    background: #EC7979;
+}
+
+.awesome__item-img {
+    height: 92px;
+    width: 92px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 24px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+}
+
+.awesome__item-img--first {
+    background-image: url(img/pic1.svg);
+}
+.awesome__item-img--second {
+    background-image: url(img/pic2.svg);
+}
+.awesome__item-img--third {
+    background-image: url(img/pic3.svg);
+}
+.awesome__title {
+    color: #333;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 26px;
+}
+
+.awesome__text {
+    color: #000;
+}
+
+/* ---PRICES--- */
+.prices{
+    background-color: #F5F5F5;
+    padding: 82px 0 83px;
+    text-align: center;
+}
+.prices__table {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.price{
+    width: 100%;
+    border-collapse: collapse;
+}
+.prices__table--item{
+    max-width: 370px;
+    width: 100%;
+}
+
+.price tr th  {
+    color: #FFF;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: #333;
+    border: 2px solid #F5F5F5;
+    padding: 20px;
+}
+
+.price tr:first-child th {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.price tr:last-child th, td {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    padding: 10px;
+}
+.price tr td{
+    color: #86878B;
+    text-transform: capitalize;
+    border: 2px solid #F5F5F5;
+    background: #FFF;
+}
