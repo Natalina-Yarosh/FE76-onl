@@ -10,15 +10,15 @@ body{
 /*Why this is awesome*/
 .features {
    /* max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;*/
+    margin: 0 auto;*/
+    padding: 100px 0;
     text-align: center;
     /*font-weight: 400;*/
 }
 .heading {
-    max-width: 1200px;
+    /*max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px;*/
     margin-bottom: 92px;
 }
 .heading__title {
@@ -50,9 +50,6 @@ body{
     align-items: flex-start;
     /*position: relative;*/
 }
-.feature__wrapper{
-        place-items: center;
-}
 .feature__wrapper-icon{
     width: 92px;
     height: 92px;
@@ -61,6 +58,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto 24px;
 }
 .feature__wrapper-icon #Lamp {
     width: 65px;
@@ -75,7 +73,7 @@ body{
     height: 65px;
 }
 .feature__title {
-    margin: 24px auto 30px;
+    /*margin: 24px auto 30px;*/
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
@@ -84,8 +82,7 @@ body{
 }
 .feature__text {
     font-size: 18px;
-    line-height: 1.167;
-    margin-bottom: 104px;
+    line-height: 21px;
 }
 
 /*Pricing Options*/
@@ -142,7 +139,7 @@ body{
     background-color: #333333;
    border: 2px solid #F5F5F5;
 }
-.tariffs__amount{
+.plan__amount{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
