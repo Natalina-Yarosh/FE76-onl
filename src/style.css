@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: "Raleway", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.section-header{
+    margin-bottom: 93px;
+}
+
+.section-header__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+.section-header__text{
+    color: #86878B;
+}
+
+.section-header__underline, .awesome__wrapper-img{
+    border:1px solid #EC7979;
+}
+
+.section-header__underline{
+    width: 170px;
+    margin: 0 auto 40px;
+}
+
+/*AWESOME*/
+
+.awesome{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.awesome__wrapper-img{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+    margin: 0 auto 24px;
+}
+
+.awesome__title{
+    font-family: "Open Sans", sans-serif;
+    text-transform:capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 26px;
+}
+
+.section-header__text, .awesome__text{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.awesome__block{
+   display: inline-block;
+   margin: 0 14px;
+   width: 30%; 
+}
+
+
+/*PRICE*/
+
+.price{
+    padding: 82px 0;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.price__header{
+    margin-bottom: 79px;
+}
+
+.plan{
+    max-width: 370px;
+    width: 100%;
+    display: inline-block;
+}
+
+.plan__name, .plan__features{
+    text-transform: capitalize;
+}
+
+.plan__name, .plan__price{
+    color: #fff;
+}
+
+.plan__name, .plan__options, .plan__price{
+    background-color: #333;
+    border: 2px solid #F5F5F5;
+}
+.plan__name{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    padding: 11px;
+}
+
+.plan__price{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 27px;
+}
+.plan__options, .plan__feature{
+    padding: 14px 10px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.plan__options{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.plan__feature{
+    list-style: none;
+    color: #86878B;
+    border: 2px solid #f5f5f5;
+    background-color: #fff;
+}
