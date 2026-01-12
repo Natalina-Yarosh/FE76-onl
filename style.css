@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* glob */
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.list-reset {
+  list-style: none;
+}
+
+/* SECTION AWESOME */
+
+.awesome {
+  padding: 100px 0;
+}
+
+.section__header {
+  margin-bottom: 79px;
+  text-align: center;
+}
+
+.awesome__header {
+  margin-bottom: 92px;
+}
+
+.section__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 42px;
+}
+
+.section__title::after {
+  content: '';
+  background-color: #EC7979;
+  display: block;
+  margin: 40px auto 0;
+  width: 170px;
+  height: 1px;
+}
+
+.section__descr {
+  color: #86878B;
+}
+
+.awesome__card {
+  display: inline-block;
+  margin-right: 27px;
+  width: calc((100% - 64px) / 3);
+  text-align: center;
+}
+
+.awesome__card:last-child {
+  margin-right: 0;
+}
+
+.awesome__wrapper-icon {
+  position: relative;
+  margin: 0 auto 24px;
+  width: 92px;
+  height: 92px;
+  border: 1px solid #EC7979;
+  border-radius: 50%;
+}
+
+.awesome__icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.awesome__title {
+  margin-bottom: 26px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* SECTION PRICING */
+
+.pricing {
+  padding: 82px 0 83px;
+  background-color: #F5F5F5;
+}
+
+.pricing__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.pricing__card {
+  max-width: 370px;
+  width: 100%;
+}
+
+.pricing__plan,
+.pricing__amount,
+.pricing__descr {
+  background-color: #333;
+  color: #fff;
+}
+
+.pricing__plan,
+.pricing__amount,
+.pricing__descr,
+.pricing__item {
+  border: 2px solid #F5F5F5;
+  text-align: center;
+}
+
+.pricing__plan {
+  padding: 12px 15px 11px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.pricing__amount {
+  padding: 28px 15px 27px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+}
+
+.pricing__descr,
+.pricing__item {
+  padding: 13px 15px 12px;
+}
+
+.pricing__descr {
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+.pricing__item {
+  background-color: #fff;
+  color: #86878B;
+  text-transform: capitalize;
+}
