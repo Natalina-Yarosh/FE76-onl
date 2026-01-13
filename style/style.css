@@ -77,7 +77,6 @@
   color: #000;
 }
 
-
 body {
     font-family: "Raleway", sans-serif;
 }
@@ -85,13 +84,13 @@ body {
 .pricing {
     padding: 82px 0;
     background: #F5F5F5;
-    text-align: center;
 }
 
 .container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .pricing__title {
