@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.awesome {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.awesome__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.awesome__divider {
+  width: 170px;
+  height: 1px;
+  background-color: #EC7979;
+  margin: 0 auto 40px;
+}
+
+.awesome__subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #86878b;
+  margin-bottom: 92px;
+  line-height: 21px;
+}
+
+.awesome__features {
+  display: flex;
+  gap: 30px;
+}
+
+.awesome__item {
+  flex: 1;
+}
+
+.awesome__icon {
+  width: 92px;
+  height: 92px;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  color: #ec7979;
+}
+
+.awesome__item-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-bottom: 26px;
+  color: #000;
+}
+
+.awesome__item-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.pricing {
+    padding: 82px 0;
+    background: #F5F5F5;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing__title {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
+
+.pricing__line {
+    width: 170px;
+    height: 1px;
+    background: #EC7979;
+    margin: 0 auto 40px;
+}
+
+.pricing__subtitle {
+    color: #86878B;
+    margin-bottom: 79px;
+    line-height: 21px;
+}
+
+.pricing__cards {
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+.pricing-card {
+    width: 100%;
+    background: #fff;
+}
+
+.pricing-card__head {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    background: #333;
+    color: #fff;
+    padding: 12.5px;
+    font-size: 24px;
+    line-height: 34px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.pricing-card__price {
+    background: #333;
+    font-weight: 700;
+    color: #fff;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 28.5px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.pricing-card__label {
+    background: #333;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 13.5px 0;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.pricing-card__list {
+    list-style: none;
+}
+
+.pricing-card__item {
+    padding: 13.5px 0;
+    border-top: 1px solid #F5F5F5;
+    color: #86878B;
+    font-size: 18px;
+    line-height: 22px;
+}
