@@ -268,6 +268,19 @@ body{
 
 }
 
+.customer__text::after{
+    content: '';
+    width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
+    display: inline-block;
+    position: absolute;
+    top: 179px;
+    left: 70px;
+}
+
 .customers{
     padding: 100px 0;
     text-align: center;
@@ -288,6 +301,7 @@ body{
     border-radius: 10px;
     padding: 37px 25px 38px;
     margin-bottom: 66px;
+    position: relative;
     
 }
 .customer__profil{
