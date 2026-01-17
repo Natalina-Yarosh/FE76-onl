@@ -6,19 +6,184 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+/*-----------------------------------HEADER------------------------*/
+.homepage{
+    max-width: 1510px;
+    margin: 0px auto;
+}
+.header{
+    height: 75px;
+    background-color: #000 ; 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__container{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .header__logo{
+    width: 87px;
+    height: 31px;
+    display: flex;
+    column-gap: 3px;
+}
+ .header__nav{
+    width: 382px; 
+    height: 19px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav__link{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+     font-size: 14px;
+    font-weight: 600;
+    line-height: 19px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: #bfbbbb;
+ }
 
-/*Why this is awesome*/
+/*---------------------------<!--AXIT-->---------------------*/
+
+.background{
+    background: url("image.png");
+}
+.container__wrapper-image{
+   position: relative;
+   display: inline-block;
+}
+ .image-container img{
+    align-self: 1510/1026;
+    width: 100%;
+    height: 100%;
+    display: block;
+ }  
+.cutaway{
+    /*position: relative;
+    display: inline-block;*/
+    position: absolute;
+    top: 170px;
+    left: 306px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+/*LEFT CUTAWAY*/
+.promo__logo{
+    width: 170px;
+    height: 55px;
+}
+.promo__title{
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: ;
+    color: #FFFFFF;
+    width: 670px;
+    height: 168px;
+    margin-bottom: 55px;
+}
+.promo__line {
+    height: 1px;
+    width: 170px;
+    background-color: #fff;
+    margin-bottom: 42px;
+   }
+.promo__text{
+    font-size: 18px;
+    line-height: 21px;
+    width: 270px;
+    height: 42px;
+    margin-bottom: 42px;
+    color: #fff;
+}
+/*RIGHT CUTAWAY*/
+.cutaway-form{
+    width: 470px;
+    height: 450px;
+    background-color: #FFFFFF;
+    }
+    /*.button    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #3E8982;
+    margin-top: 111px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    .button {
+    margin-right: 25px;
+    background-color: #cddbd1;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 19px 20px 20px;
+    width: 100%;
+    max-width: 227px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+}*/
+/*-----------------SOTIAL----------------*/
+.social{
+    height: 140px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social__wrapper{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.social__info{
+    width: 470px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.social__title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1; 
+    color: #333333;
+    padding-bottom: 16px;
+}
+.social__subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+}
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/*--------------------Why this is awesome-------------------------*/
 .features {
-   /* max-width: 1200px;
-    margin: 0 auto;*/
+
     padding: 100px 0;
     text-align: center;
-    /*font-weight: 400;*/
 }
 .heading {
-    /*max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;*/
     margin-bottom: 92px;
 }
 .heading__title {
@@ -27,8 +192,6 @@ body{
     font-weight: 400;
     line-height: 42px;
     margin-bottom: 40px;
-    /*width: 1170px;
-    height: 45px;*/
 }
 .heading__line {
     height: 1px;
@@ -40,14 +203,14 @@ body{
     font-size: 18px;
     color: #86878B;
     line-height: 21px;
-    /* width: 1169px;
-    height: 21px;*/
+    margin-bottom: 79px;
 }
 .features__box {
   display: flex;
     column-gap: 27px;
      justify-content: center;
     align-items: flex-start;
+    margin-top: 92px;
     /*position: relative;*/
 }
 .feature__wrapper-icon{
@@ -78,30 +241,32 @@ body{
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    margin-bottom: 26px;
+    margin-bottom: 26px; 
 }
 .feature__text {
     font-size: 18px;
     line-height: 21px;
 }
 
-/*Pricing Options*/
+/*--------------------------Pricing Options---------------------*/
 .tariffs{
+    max-width: 1510px;
+    margin: 0px auto;
     background-color: #F5F5F5;
     padding:  82px 0px 83px;
     text-align: center;
-     }
+}
 .container{
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px 15px; 
 }
-.tariffs__title{
+/*.tariffs__title{
     font-size: 36px;
     line-height: 42px;
     text-transform: uppercase;
-   font-weight: 400;
-   margin-bottom: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 .tariffs__line{
     height: 1px;
@@ -114,14 +279,12 @@ body{
     line-height: 21px;
     color: #86878B; 
     margin-bottom: 79px;
-}
+}*/
 .tariffs__plans{
     display: flex;
     column-gap: 30px;
     justify-content: center;
     align-items: flex-start;
-    /* position: relative;
-    border: 2px solid #F5F5F5;*/
 }
 .plan{
    max-width: 370px; 
@@ -132,19 +295,15 @@ body{
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
-   /* width: 370px; /*max-width ?
-    height: 60px;*/
     padding: 11px 10px;
     color: #FFFFFF;
     background-color: #333333;
-   border: 2px solid #F5F5F5;
+    border: 2px solid #F5F5F5;
 }
 .plan__amount{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    /*width: 370px; /*max-width ?
-    height: 100px;*/
     padding: 27px 10px;
     color: #FFFFFF;
     background-color: #333333;
@@ -153,8 +312,6 @@ body{
 .plan__description{
     font-size: 18px;
     line-height: 22px;
-   /* width: 370px; /*max-width ?*
-    height: 50px;*/
     padding: 12px 10px; /*уменьшаем, чтобы попасть в размеры окна 370*100*/
     color: rgba(255, 255, 255, 50%);
     background-color: #333333;
@@ -170,4 +327,91 @@ body{
     border-width: 2px;
     text-transform:capitalize;
     border: 2px solid #F5F5F5;
+}
+
+/*--------------------------What our customers are saying---------------------*/
+  .opinions{
+    padding:  100px 0px;
+    text-align: center;
+}  
+.container__opinions{    
+     max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px; }
+.customers__box{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+.customer{
+    flex: 0 1 370px;
+    width: 370px;
+    height: 316px;
+    margin-bottom: 100px;
+}
+.customer__text{
+    background-color: #E2E2E2;
+   border-radius: 10px;
+   font-size: 18px;
+    line-height: 21px;
+    padding: 38px 25px 37px;
+    color: #86878B;
+}
+.customer__triangle{
+    width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
+    margin-left: 70px;
+    margin-bottom: 66px
+}
+.customer__info{
+display: flex;
+column-gap: 30px;
+text-align: left;
+}
+.customer__wrapper-icon{
+   width: 70px; 
+   height: 70px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: flex;    /*align-items: center;*/
+   justify-content: center;
+}
+/*.customer__icon{ width: 150%;height: 150%;} - подгонять лицо под круг*/
+.customer__name{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 18px;
+   }
+.customer__status{
+    font-size: 18px;
+    line-height: 1;
+}
+/*--------------------------Footer---------------------*/
+.footer{
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__wrapper{
+    width: 1170px;
+    flex-wrap: wrap;
+    background-color: #000 ;
+ }
+ .footer__icons{ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 33px;
+}
+.footer__production{
+    color: rgba(217, 217, 217, 50%);
+    text-align: center;
 }
