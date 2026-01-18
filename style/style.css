@@ -9,13 +9,10 @@ body{
 
 }
 
-.heading{
-    margin-bottom: 92px;
-}
-
 .awesome{
      padding-top: 100px;
      padding-bottom: 100px;
+     text-align: center;
 }
 
 
@@ -41,25 +38,6 @@ body{
     padding: 11px;
 }
 
-.heading__title{
-    
-    font-size: 36px;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 40px;
-    line-height: 42px;
-    text-transform: uppercase;
-    
-} 
-
-.heading__text{
- 
-    font-size: 18px;
-    color: #86878B;
-    text-align: center;
-    line-height: 21px;
-    margin-bottom: 92px;
-}
 .awesome__title{
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
@@ -87,11 +65,11 @@ body{
     text-align: center;
 }
 
-.plans__overview{
+.page__overview{
     margin-bottom: 79px;
 }
 
-.plans__title{
+.page__title{
     color: #000000;
     font-size: 36px;
     line-height: 42px;
@@ -100,13 +78,13 @@ body{
     text-transform: uppercase;
 }
 
-.plans__line{
+.page__line{
     width: 170px;
     border-top: 1px solid #EC7979;
     margin: 0 auto 40px;
 }
 
-.planx__text{
+.page__text{
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
@@ -179,30 +157,34 @@ body{
 
 
 
-.axit{
+.header{
     background-color: #000;
     padding: 22px 0;
 }
-.axit__line{
+.header__content{
      display: flex;
      flex-wrap: nowrap;
      justify-content: space-between;
      align-items: center;
 }
-
-.axit__navig{
+.logo{
     display: flex;
-    justify-content: space-around;
-    max-width: 382px;
-    width: 100%;
+    max-width: 87px;
 }
-.axit__text{
+
+.nav{
+    display: flex;
+   
+    gap: 30px;
+}
+.nav__link{
     font-size: 14px;
     color: #FFFFFF;
     font-weight: 600;
     text-transform: capitalize;
     font-family: "Open Sans", sans-serif;
-  
+    line-height: 19px;
+    text-decoration: none;
 }
 
 
@@ -210,11 +192,12 @@ body{
 
 .social{
     background-color: #F5F5F5;
-    padding: 32px 0 18px;
+    padding: 32px 0 14px;
     text-align: left;
 }
 .social__container{
     display: flex;
+    justify-content: space-between;
 
 }
 .social__content{
@@ -236,12 +219,12 @@ body{
 }
 .social__media{
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    gap: 30px;
 }
-.icon{
+.social__link{
     width: 70px;
     height: 70px;
+   
 }
 
 
@@ -250,15 +233,15 @@ body{
     padding: 35px 0 27px;
     text-align: center;
 }
-.media{
+.footer__icon{
     width: 53px;
     height: 53px;
 }
 .footer__media{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto 28px;
-    max-width: 600px;
+    gap: 32px;
 }
 .footer__date{
     font-size: 18px;
@@ -277,7 +260,7 @@ body{
 	border-top: 30px solid #E2E2E2;
     display: inline-block;
     position: absolute;
-    top: 179px;
+    top: 100%;
     left: 70px;
 }
 
@@ -288,9 +271,10 @@ body{
 .customer__team{
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 .customer__bio{
-    max-width: 370px;
+   flex: 0 1 370px;
 }
 .customer__text{
     font-size: 18px;
@@ -324,7 +308,7 @@ body{
     font-weight: 400;
     color: #000;
 }
-.image{
+.customer__image{
     width: 100%;
     height: 100%;
     object-fit: cover;
