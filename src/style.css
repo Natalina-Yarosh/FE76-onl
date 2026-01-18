@@ -39,7 +39,7 @@ body{
     font-size: 14px;
     line-height: 19px;
     font-weight: 700;
-    list-style-type: none;
+    text-decoration: none;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -238,7 +238,7 @@ body{
 	border-right: 15px solid transparent;
 	border-top: 20px solid #e2e2e2;
     position: absolute;
-    top:179px;
+    top:100%;
     left:70px;
 }
 
