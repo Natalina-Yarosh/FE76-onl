@@ -331,3 +331,136 @@ body{
     overflow: hidden;
     border-radius: 50%;
 }
+
+.banner{
+    text-align: left;
+    padding: 306px 0 186px;
+    background-image: url(../assets/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+} 
+.banner::before{ 
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   
+} 
+    
+.banner__container{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+.banner__logo{
+    width: 170px;
+    height: 55px;
+    margin-bottom: 73px;
+}
+.banner__title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 670px;
+    margin-bottom: 97px;
+    position: relative;
+}
+.banner__title::after{
+    content: '';
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+
+}
+.banner__text{
+    max-width: 270px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 42px;
+    
+}
+.banner__btn{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 17px 10px;
+    width: 270px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.banner__account-form{
+    display: inline-flex;
+    flex: 0 1 470px;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 36px 0 75px;
+    position: relative;
+}
+.form__title{
+   font-size: 24px;
+   line-height: 33px;
+   font-family: "Open Sans", sans-serif;
+   color: #000;
+   font-weight: 700;
+   margin-bottom: 75px;
+   text-transform: uppercase;
+}
+.pink{
+ color: #EC7979;
+}
+.form__btn{
+  background-color: #EC7979;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid #EC7979;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 19px 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.form{
+    border: none; 
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    font-family: "Open Sans", sans-serif;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 16px;
+
+}
+.form::after{
+    content: '';
+
+}
+
+.banner__registration{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    max-width: 370px;
+    width: 100%;
+    margin-bottom: 60px;
+}
