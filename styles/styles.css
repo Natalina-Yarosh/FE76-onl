@@ -18,19 +18,20 @@ body {
 
 .header {
     background-color: #000000;
-    padding: 20px 170px;
-    font-family: "Open Sans", sans-serif;
+    padding: 22px 0;
+    
 }
 
 .header__flex-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header__logo {
     text-decoration: none;
+    display: flex;
+    max-width: 87px;
 }
 
 .header__nav-list {
@@ -41,6 +42,7 @@ body {
     font-weight: 600;
     color: #FFFFFF;
     text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
 }
 
 .header__nav-link {
@@ -51,21 +53,18 @@ body {
 /* Раздел media */
 .media {
     background-color: #F5F5F5;
-    padding: 31px 170px 18px;
+    padding: 31px 0 18px;
 }
 
 .media__flex-wrapper {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 .media__info {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
     max-width: 470px;
     width: 100%;
-    color: #333333;
 }
 
 .media__title {
@@ -73,11 +72,14 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    margin-bottom: 16px;
+    color: #333333;
 }
 
 .media__text {
     font-size: 18px;
     line-height: 21px;
+    color: #333333;
 }
 
 .services__wrapper-image {
@@ -91,11 +93,16 @@ body {
     height: 70px;
 }
 
-.services__list {
+.services {
     display: flex;
     list-style: none;
     gap: 30px;
+    justify-content: center;
 }
+.services--margin-bottom-28 {
+    margin-bottom: 28px; 
+}
+
 
 /* Раздел awesome */
 .awesome {
@@ -132,14 +139,12 @@ body {
 
 .awesome__columns {
     text-align: center;
+    display: flex;
+    column-gap: 27px;
 }
 
 .awesome__column {
-    display: inline-block;
-    max-width: 371px;
-    width: 100%;
-    margin-right: 10px;
-
+   flex: 0 1 371px;
 }
 
 .awesome__column:last-child {
@@ -152,6 +157,9 @@ body {
     border: 1px solid #EC7979;
     border-radius: 50%;
     margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .awesome__icon--keyboard {
@@ -191,13 +199,12 @@ body {
 
 .pricing__cards {
     text-align: center;
+    display: flex;
+    column-gap: 30px;
 }
 
 .pricing__card {
-    display: inline-block;
-    width: 100%;
-    max-width: 370px;
-    margin-right: 15px;
+    flex: 0 1 370px;
 }
 
 .pricing__card:last-child {
@@ -223,7 +230,6 @@ body {
     border: 2px solid #F5F5F5;
     background-color: #333333;
     padding: 27px 0;
-
 }
 
 .pricing__note {
@@ -249,7 +255,7 @@ body {
 
 /* раздел customers */
 .customers {
-    padding: 100px 170px;
+    padding: 100px 0px;
 }
 
 .text--margin-bottom-83 {
@@ -266,8 +272,6 @@ body {
 }
 
 .customers__bubble-speech {
-    max-width: 370px;
-    text-align: center;
     background-color: #E2E2E2;
     border-radius: 10px;
     padding: 38px 25px 37px;
@@ -294,14 +298,15 @@ body {
 
 .customers__cards {
     display: flex;
-    flex-wrap: wrap;
     column-gap: 30px;
-    justify-content: center;
 }
-
+.customers__card{
+    flex: 0 1 370px;
+}
 .customers__profile {
     display: flex;
     column-gap: 30px;
+    align-items: center;
 }
 
 .customers__wrapper-image {
@@ -318,18 +323,13 @@ body {
     object-position: center;
 }
 
-.customers__info {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-}
-
 .customers__name {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     text-transform: capitalize;
+    margin-bottom: 18px;
 }
 
 .customers__position {
@@ -351,9 +351,8 @@ body {
     align-items: center;
 }
 
-.services__footer--spaced .services__list {
+.services__footer--spaced .services {
     column-gap: 33px;
-    margin-bottom: 28px;
 }
 
 .services__wrapper-image--small {
@@ -366,4 +365,5 @@ body {
     line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
     text-transform: capitalize;
+    text-align: center;
 }
