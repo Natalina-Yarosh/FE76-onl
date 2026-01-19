@@ -13,49 +13,56 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__logo"
-        ><img class="header__img" src="img/AX.svg" alt="AX" />
-        <img class="header__img" src="img/IT.svg" alt="IT" />
-      </a>
-      <ul class="header__menu">
-        <li class="menu__list">features</li>
-        <li class="menu__list">About</li>
-        <li class="menu__list">Pricing</li>
-        <li class="menu__list">Reviews</li>
-        <li class="menu__list">Contact</li>
-      </ul>
+      <div class="container">
+        <a class="header__logo"
+          ><img class="header__img" src="img/axit_logo.svg" alt="AX" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link">features</a></li>
+            <li class="nav__item"><a class="nav__link">About</a></li>
+            <li class="nav__item"><a class="nav__link">Pricing</a></li>
+            <li class="nav__item"><a class="nav__link">Reviews</a></li>
+            <li class="nav__item"><a class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section class="media">
-      <div class="media__container__text">
-        <h4 class="media__title">Social Media</h4>
-        <p class="media__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          euismod bibendum laoreet.
-        </p>
+      <div class="container">
+        <div class="media__wrapper-text">
+          <h2 class="h2-tag">Social Media</h2>
+          <p class="media__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet.
+          </p>
+        </div>
+        <ul class="media__list">
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/fb.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/tviter.svg" alt="#" /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/in.svg" alt="#" /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/pin.svg" alt="#" /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/inst.svg" alt="#" /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/git.svg" alt="#" /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__icon"><img src="img/wifi.svg" alt="#" /></a>
+          </li>
+        </ul>
       </div>
-      <ul class="media__list">
-        <li class="media__list__icon">
-          <a class="img"><img src="img/fb.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/tviter.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/in.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/pin.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/inst.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/git.svg" alt="#" /></a>
-        </li>
-        <li class="media__list__icon">
-          <a class="img"><img src="img/wifi.svg" alt="#" /></a>
-        </li>
-      </ul>
     </section>
     <section class="awesome">
       <div class="container__awesome">
@@ -103,7 +110,7 @@
     </section>
 
     <section class="pricing">
-      <div class="container__awesome">
+      <div class="container">
         <h2 class="pricing__title">PRICING OPTIONS</h2>
         <hr class="pricing__line" />
         <p class="pricing__text">
@@ -148,7 +155,7 @@
     </section>
 
     <section class="customers">
-      <div class="container__customers">
+      <div class="container">
         <h2 class="customers__title">what our customers are saying</h2>
         <hr />
         <p class="customers__text">
@@ -162,12 +169,19 @@
               Doloribus accusamus expedita repellat similique odio aspernatur
               ex, architecto eaque quo suscipit.
             </p>
-            <img class="customers__wrapper__tryg" src="img/treyg.svg" alt="#" />
-            <div class="customers__wrapper__img">
-              <img src="img/66b2fd77bcc4d9d08952929e354a34ed.jpg" alt="#" />
+            <div class="element__style">
+              <div class="customers__wrapper__img">
+                <img
+                  class="wrapper__img"
+                  src="img/66b2fd77bcc4d9d08952929e354a34ed.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="title__subtitle">
+                <h3 class="customers__wrapper__title">Davis Rhiel Madsen</h3>
+                <p class="customers__wrapper__subtitle">Manager</p>
+              </div>
             </div>
-            <h3 class="customers__wrapper__title">Davis Rhiel Madsen</h3>
-            <p class="customers__wrapper__subtitle">Manager</p>
           </div>
           <div class="customers__wrapper__block">
             <p class="customers__wrapper__text">
@@ -175,11 +189,15 @@
               Doloribus accusamus expedita repellat similique odio aspernatur
               ex, architecto eaque quo suscipit.
             </p>
-            <div class="customers__wrapper__img">
-              <img src="img/1045140.jpg" alt="#" />
+            <div class="element__style">
+              <div class="customers__wrapper__img">
+                <img class="wrapper__img" src="img/1045140.jpg" alt="#" />
+              </div>
+              <div class="title__subtitle">
+                <h3 class="customers__wrapper__title">Jaydon Rosser</h3>
+                <p class="customers__wrapper__subtitle">Manager</p>
+              </div>
             </div>
-            <h3 class="customers__wrapper__title">Jaydon Rosser</h3>
-            <p class="customers__wrapper__subtitle">Manager</p>
           </div>
           <div class="customers__wrapper__block">
             <p class="customers__wrapper__text">
@@ -187,40 +205,64 @@
               Doloribus accusamus expedita repellat similique odio aspernatur
               ex, architecto eaque quo suscipit.
             </p>
-            <div class="customers__wrapper__img">
-              <img src="img/e4ea743428f4dcc3c0be920784cd86c5.jpg" alt="#" />
+            <div class="element__style">
+              <div class="customers__wrapper__img">
+                <img
+                  class="wrapper__img"
+                  src="img/e4ea743428f4dcc3c0be920784cd86c5.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="title__subtitle">
+                <h3 class="customers__wrapper__title">Cooper Dorwart</h3>
+                <p class="customers__wrapper__subtitle">Manager</p>
+              </div>
             </div>
-            <h3 class="customers__wrapper__title">Cooper Dorwart</h3>
-            <p class="customers__wrapper__subtitle">Manager</p>
           </div>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <ul class="footer__list">
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/fb.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/tviter.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/in.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/pin.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/inst.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/git.svg" alt="#" /></a>
-        </li>
-        <li class="footer__list__icon">
-          <a class="img"><img src="img/wifi.svg" alt="#" /></a>
-        </li>
-      </ul>
-      <p class="footer__text">© 2015 Axure Themes</p>
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/fb.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="img"
+              ><img class="footer__image" src="img/tviter.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/in.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/pin.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/inst.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/git.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/wifi.svg" alt="#"
+            /></a>
+          </li>
+        </ul>
+        <p class="footer__text">© 2015 Axure Themes</p>
+      </div>
     </footer>
   </body>
 </html>
