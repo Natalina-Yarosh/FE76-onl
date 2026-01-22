@@ -410,24 +410,19 @@ body {
 }
 
 .hero__container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-}
-
-.hero .hero__container{
     z-index: 1;
     position: relative;
 }
 
 .hero__picture{
     width: 170px;
-    height: 55px;
+    max-height: 55px;
     margin-bottom: 73px;
+    display: flex;
 }
 
 .hero__text{
@@ -455,6 +450,7 @@ body {
     border: 1px solid #fff;
     position: absolute;
     bottom: -55px;
+    left: 0;
 }
 
 .hero__btn{
@@ -538,9 +534,7 @@ body {
 }
 
 .design__container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;  
+    position: relative;
 }
 
 .hero .design__container{
@@ -564,9 +558,7 @@ body {
     margin-bottom: 80px;
     font-size: 18px;
     line-height: 21px;
-    max-width: 1170px;
     text-align: center;
-    position: relative;
 }
 
 .design__title::after{
@@ -592,5 +584,4 @@ body {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    position: relative;
 }
