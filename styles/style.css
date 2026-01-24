@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body{
+    font-family: Raleway, sans-serif;
+}
+
+.awesome{
+    padding: 100px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.awesome__container{
+    text-align: center;
+}
+
+.awesome__main{
+    margin-bottom: 92px;
+}
+
+.awesome__tittle{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.awesome__underline{
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+
+.awesome__info{
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.awesome__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.awesome__item{
+    max-width: 371px;
+}
+
+.awesome__item_img{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #EC7979;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome__subtitle{
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 26px;
+}
+
+.awesome__text{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.options{
+    background-color: #F5F5F5;
+    padding: 82px 0;
+}
+
+.options__container{
+    text-align: center;
+}
+
+.options__main{
+    margin-bottom: 79px;
+}
+
+.options__tittle{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.options__underline{
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: 0 auto 40px;
+}
+.options__info{
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.options__prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.options__price{
+    max-width: 370px;
+    display: inline-block;
+    width: 100%;
+}
+
+.options__price-tittle{
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 13px 0 14px;
+}
+
+.options__price-value{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+    background-color: #333333;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 29px 0;
+}
+
+.options__price-subtitle{
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, .5);
+    background-color: #333333;
+    border-bottom: 2px solid #F5F5F5;
+    padding: 14px 0;
+}
+
+.options__list-size{
+    list-style: none;
+    font-size: 18px;
+    line-height: 19px;
+    padding: 14px 0;
+    color: #86878B;
+    background-color: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    text-transform: capitalize;
+}
