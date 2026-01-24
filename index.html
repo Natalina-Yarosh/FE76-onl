@@ -32,8 +32,8 @@
     <section class="banner">
       <div class="container">
         <div class="banner__content">
-          <div class="banner__logo">
-            <img class="logo-img" src="img/axit_logo.svg" alt="AXIT" />
+          <div class="banner__wrapper-logo">
+            <img class="banner__logo" src="img/axit_logo.svg" alt="AXIT" />
           </div>
           <h1 class="banner__title">
             MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
@@ -45,19 +45,23 @@
         </div>
 
         <div class="banner__data">
-          <h3 class="banner__data__title">
-            Try Your <span class="span">FREE</span> Trial Today
+          <h3 class="banner__data-title">
+            Try Your
+            <span class="banner__data-title banner__data-title_part">FREE</span>
+            Trial Today
           </h3>
-          <form class="banner__form">
-            <input type="text" class="banner__form-text" placeholder="Name" />
-            <input type="email" class="banner__form-text" placeholder="Email" />
+          <form class="banner__form" id="banner__form">
+            <input type="text" class="banner__input" placeholder="Name" />
+            <input type="email" class="banner__input" placeholder="Email" />
             <input
               type="password"
-              class="banner__form-text"
+              class="banner__input"
               placeholder="Password"
             />
           </form>
-          <button class="banner__data-btn">Get Started</button>
+          <button class="banner__data-btn" form="banner__form">
+            Get Started
+          </button>
         </div>
       </div>
     </section>
@@ -113,7 +117,6 @@
     <section class="awesome">
       <div class="container__awesome">
         <h2 class="title">WHY THIS IS AWESOME</h2>
-        <hr />
         <p class="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
@@ -285,21 +288,20 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <form class="contact__form">
-          <div class="form__left">
-            <input type="text" class="contact__form-text" placeholder="Name" />
-            <input
-              type="email"
-              class="contact__form-text"
-              placeholder="Email"
-            />
+          <div class="contact__wrapper-inputs">
+            <input type="text" class="contact__input" placeholder="Name" />
+            <input type="email" class="contact__input" placeholder="Email" />
             <input
               type="password"
-              class="contact__form-text"
+              class="contact__input"
               placeholder="Password"
             />
           </div>
-          <div class="form__right">
-            <textarea class="contact__form-ta" placeholder="Message"></textarea>
+          <div class="contact__wrapper-textarea">
+            <textarea
+              class="contact__textarea"
+              placeholder="Message"
+            ></textarea>
           </div>
         </form>
         <button class="contact__btn">Send Message</button>
@@ -315,7 +317,7 @@
             /></a>
           </li>
           <li class="footer__item">
-            <a class="img"
+            <a class="footer__link"
               ><img class="footer__image" src="img/tviter.svg" alt="#"
             /></a>
           </li>
