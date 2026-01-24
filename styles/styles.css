@@ -644,7 +644,7 @@ body {
     line-height: 19px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding: 8px 0 8px;
+    padding: 8px 0;
 }
 
 .form__input::placeholder {
@@ -664,7 +664,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
-    padding: 8px 0 8px;
+    padding: 8px 0;
 }
 
 .form__textarea:focus {
