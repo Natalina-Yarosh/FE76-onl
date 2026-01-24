@@ -469,17 +469,20 @@ body {
 
 .hero__form{
     background: #fff;
-    width: 900px;
+    width: 470px;
     border-radius: 10px;
     overflow: hidden;
+    padding-top: 36px;
+    width: 100%;
 }
 
 .hero__form-title{
     text-align: center;
-    padding: 36px;
+    padding: 0 36px;
     font-size: 24px;
     line-height: 33px;
     font-family: "Open Sans", sans-serif;
+    margin-bottom: 75px;
 }
 
 .hero__form-title span{
@@ -487,7 +490,8 @@ body {
 }
 
 .form{
-    padding: 39px;
+    margin-bottom: 75px;
+    padding: 0 50px;
 }
 
 .form__input{
@@ -498,7 +502,19 @@ body {
     border-bottom: 1px solid #ddd;
     outline: none;
     font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 14px;
+    line-height: 19px;
 }
+
+.form__input::after{
+    margin-bottom: 31px;
+}
+
+.form__input::placeholder{
+    color: #BDBDBD;
+}
+
 
 .form__button{
    width: 100%;
@@ -585,11 +601,6 @@ body {
     display: inline-block;
     text-align: center;
 }
-
-
-
-
-
 
 .contact{
   padding: 100px 0 146px;
