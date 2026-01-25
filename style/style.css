@@ -287,12 +287,12 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     padding: 100px 0;
     text-align: center;
 }
-.customer__team{
+.customers__team{
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
-.customer__bio{
+.customer{
    flex: 0 1 370px;
 }
 .customer__text{
@@ -366,11 +366,13 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     position: relative;
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 .banner__logo{
     width: 170px;
     height: 55px;
     margin-bottom: 73px;
+    object-fit: contain;
 }
 .banner__title{
     font-size: 48px;
@@ -408,7 +410,8 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     font-weight: 600;
     text-transform: capitalize;
     padding: 17px 10px;
-    width: 270px;
+    max-width: 270px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
 
 }
@@ -417,14 +420,11 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
    
 }
 .banner__account-form{
-    display: inline-flex;
-    flex: 0 1 470px;
-    flex-direction: column;
-    align-self: flex-start;
-    align-items: center;
+    max-width: 470px;
+    width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 36px 0 75px;
+    padding: 36px 50px 75px;
     position: relative;
 }
 .form__title{
@@ -452,15 +452,17 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
 }
 .form{
     border: none; 
     font-size: 14px;
     line-height: 19px;
-    color: #BDBDBD;
+    color: #000;
     font-family: "Open Sans", sans-serif;
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 16px;
+     outline: none;
 
 }
 
@@ -471,6 +473,7 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     max-width: 370px;
     width: 100%;
     margin-bottom: 60px;
+   
 }
 
 .design{
@@ -495,9 +498,7 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
 .design__container{
     z-index: 1;
     position: relative;
-     display: flex;
-     flex-direction: column;
-     gap: 80px;
+
      align-items: center;
 }
 .design__title{
@@ -507,6 +508,7 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     font-weight: 400;
     color: #FFFFFF;
     position: relative;
+    margin-bottom: 80px;
   
 }
 .design__title::after{
@@ -522,7 +524,8 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    font-weight: 400;  
+    margin-bottom: 80px;
+  
 }
 .design__btn{
     background-color: transparent;
@@ -533,7 +536,63 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     font-weight: 600;
     text-transform: capitalize;
     padding: 17px 10px;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
 
+}
+
+.contact{
+    text-align: center;
+    padding: 100px 0 146px;
+}
+.contact__registr{
+    margin-bottom: 50px;
+}
+.contact__btn{
+    background-color: #EC7979;
+    border: 2px solid #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 17px 10px;
+    max-width: 370px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+.contact__btn:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+    background-color: #FFFFFF;
+}
+.contact__enrol{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.contact__registr{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    flex: 0 1 570px;
+}
+
+.com__registr{
+    min-height: 210px;
+    resize: none;
+}
+.registr{
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 16px 10px;
+    outline: none;
+}
+.registr::placeholder{
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    font-family: "Open Sans", sans-serif;
 }
