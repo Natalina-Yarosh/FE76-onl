@@ -114,7 +114,7 @@ body {
   background-color: transparent;
   padding: 20px;
   width: 100%;
-  box-shadow: 0 8px 0 darker;
+  box-shadow: 0 8px 10px #333333;
 }
 .banner__btn:hover {
   transform: translateY(-4px);
@@ -149,7 +149,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  column-gap: 15px;
+  row-gap: 15px;
 }
 .banner__input {
   font-size: 14px;
@@ -522,7 +522,7 @@ hr {
   background-color: transparent;
   padding: 20px;
   width: 100%;
-  box-shadow: 0 8px 0 darker;
+  box-shadow: 0 8px 10px #333333;
 }
 .design__btn:hover {
   transform: translateY(-4px);
@@ -622,7 +622,6 @@ hr {
   padding: 16px;
   max-width: 370px;
   width: 100%;
-  box-shadow: 0 8px 0 darker;
 }
 .contact__btn:hover {
   transform: translateY(-4px);
