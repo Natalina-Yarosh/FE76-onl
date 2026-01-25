@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -12,17 +12,118 @@
     <title>AXIT</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <a class="header__logo"
+          ><img class="header__img" src="img/axit_logo.svg" alt="AX" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link">features</a></li>
+            <li class="nav__item"><a class="nav__link">About</a></li>
+            <li class="nav__item"><a class="nav__link">Pricing</a></li>
+            <li class="nav__item"><a class="nav__link">Reviews</a></li>
+            <li class="nav__item"><a class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="container">
+        <div class="banner__content">
+          <div class="banner__wrapper-logo">
+            <img class="banner__logo" src="img/axit_logo.svg" alt="AXIT" />
+          </div>
+          <h1 class="banner__title">
+            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+          </h1>
+          <p class="banner__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </p>
+          <button class="banner__btn">Download</button>
+        </div>
+
+        <div class="banner__data">
+          <h3 class="banner__data-title">
+            Try Your
+            <span class="banner__data-title banner__data-title_part">FREE</span>
+            Trial Today
+          </h3>
+          <form class="banner__form" id="banner__form">
+            <input type="text" class="banner__input" placeholder="Name" />
+            <input type="email" class="banner__input" placeholder="Email" />
+            <input
+              type="password"
+              class="banner__input"
+              placeholder="Password"
+            />
+          </form>
+          <button class="banner__data-btn" form="banner__form">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="media">
+      <div class="container">
+        <div class="media__wrapper-text">
+          <h2 class="media__title">Social Media</h2>
+          <p class="media__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet.
+          </p>
+        </div>
+        <ul class="media__list">
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/fb.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/tviter.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/in.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/pin.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/inst.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/git.svg" alt="#"
+            /></a>
+          </li>
+          <li class="media__item">
+            <a class="media__link"
+              ><img class="media__icon" src="img/wifi.svg" alt="#"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="awesome">
       <div class="container__awesome">
         <h2 class="title">WHY THIS IS AWESOME</h2>
-        <hr />
         <p class="text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
         <div class="awesome__wrapper">
           <div class="awesome__element">
             <div class="awesome__wrapper-item">
-              <img src="img/light.svg" alt="вектор" />
+              <img class="awesome__img" src="img/light.svg" alt="вектор" />
             </div>
             <h3 class="awesome__title">Thoughtful Design</h3>
             <p class="awesome__text">
@@ -33,7 +134,7 @@
           </div>
           <div class="awesome__element">
             <div class="awesome__wrapper-item">
-              <img src="img/keyboard.svg" alt="вектор1" />
+              <img class="awesome__img" src="img/keyboard.svg" alt="вектор1" />
             </div>
             <h3 class="awesome__title">Thoughtful Design</h3>
             <p class="awesome__text">
@@ -44,7 +145,7 @@
           </div>
           <div class="awesome__element">
             <div class="awesome__wrapper-item">
-              <img src="img/lightning.svg" alt="вектор2" />
+              <img class="awesome__img" src="img/lightning.svg" alt="вектор2" />
             </div>
             <h3 class="awesome__title">Thoughtful Design</h3>
             <p class="awesome__text">
@@ -56,9 +157,8 @@
         </div>
       </div>
     </section>
-
     <section class="pricing">
-      <div class="container__awesome">
+      <div class="container">
         <h2 class="pricing__title">PRICING OPTIONS</h2>
         <hr class="pricing__line" />
         <p class="pricing__text">
@@ -101,5 +201,154 @@
         </div>
       </div>
     </section>
+    <section class="customers">
+      <div class="container">
+        <h2 class="customers__title">what our customers are saying</h2>
+        <hr />
+        <p class="customers__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
+        <div class="customers__wrapper">
+          <div class="customer">
+            <p class="customer__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloribus accusamus expedita repellat similique odio aspernatur
+              ex, architecto eaque quo suscipit.
+            </p>
+            <div class="customer__info">
+              <div class="customer__wrapper-img">
+                <img
+                  class="wrapper__img"
+                  src="img/66b2fd77bcc4d9d08952929e354a34ed.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="customer__content">
+                <h3 class="customer__name">Davis Rhiel Madsen</h3>
+                <p class="customer__job">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="customer">
+            <p class="customer__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloribus accusamus expedita repellat similique odio aspernatur
+              ex, architecto eaque quo suscipit.
+            </p>
+            <div class="customer__info">
+              <div class="customer__wrapper-img">
+                <img class="wrapper__img" src="img/1045140.jpg" alt="#" />
+              </div>
+              <div class="customer__content">
+                <h3 class="customer__name">Jaydon Rosser</h3>
+                <p class="customer__job">Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="customer">
+            <p class="customer__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloribus accusamus expedita repellat similique odio aspernatur
+              ex, architecto eaque quo suscipit.
+            </p>
+            <div class="customer__info">
+              <div class="customer__wrapper-img">
+                <img
+                  class="wrapper__img"
+                  src="img/e4ea743428f4dcc3c0be920784cd86c5.jpg"
+                  alt="#"
+                />
+              </div>
+              <div class="customer__content">
+                <h3 class="customer__name">Cooper Dorwart</h3>
+                <p class="customer__job">Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="design">
+      <div class="container">
+        <h2 class="design__title">STYLISH AXURE DESIGN</h2>
+        <p class="design__text">
+          Use the sections you need, remove the ones you don't. Create gorgeous
+          prototypes faster than ever!
+        </p>
+        <button class="design__btn">Download</button>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="contact__title">contact us</h2>
+        <p class="contact__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <form class="contact__form">
+          <div class="contact__wrapper-inputs">
+            <input type="text" class="contact__input" placeholder="Name" />
+            <input type="email" class="contact__input" placeholder="Email" />
+            <input
+              type="password"
+              class="contact__input"
+              placeholder="Password"
+            />
+          </div>
+          <div class="contact__wrapper-textarea">
+            <textarea
+              class="contact__textarea"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </form>
+        <button class="contact__btn">Send Message</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/fb.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/tviter.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/in.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/pin.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/inst.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/git.svg" alt="#"
+            /></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link"
+              ><img class="footer__image" src="img/wifi.svg" alt="#"
+            /></a>
+          </li>
+        </ul>
+        <p class="footer__text">© 2015 Axure Themes</p>
+      </div>
+    </footer>
   </body>
 </html>
