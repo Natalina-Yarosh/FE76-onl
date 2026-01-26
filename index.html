@@ -36,12 +36,12 @@
        <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         <button class="banner__btn">download</button>
     </div>
-    <form class="banner__account-form">
-      <h2 class="form__title">Try Your <span class="pink">FREE</span> Trial Today</h2>
-      <div class="form__registration">
-        <input class="form" type="text" placeholder="Name"/>
-        <input class="form" type="email" placeholder="Email"/>
-        <input class="form" type="password" placeholder="Password"/>
+    <form class="banner__form form">
+      <h3 class="form__title">Try Your <span class="pink">FREE</span> Trial Today</h3>
+      <div class="form__inputs">
+        <input class="form__input" type="text" placeholder="Name"/>
+        <input class="form__input" type="email" placeholder="Email"/>
+        <input class="form__input" type="password" placeholder="Password"/>
       </div>
         <button class="form__btn">Get Started</button>
 
@@ -244,17 +244,19 @@
             <div class="page__line"></div> 
             <p class="page__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
            </div>
-       <div class="contact__enrol">
-            <div class="contact__registr">
-              <input class="registr" type="text" placeholder="Name"/>
-              <input class="registr" type="email" placeholder="Email"/>
-              <input class="registr" type="password" placeholder="Password"/>
+     <form action="contact__form form">
+       <div class="contact__fields">
+            <div class="contact__wrapper-inputs">
+              <input class="contact__input contact__field" type="text" placeholder="Name"/>
+              <input class="contact__input contact__field" type="email" placeholder="Email"/>
+              <input class="contact__input contact__field" type="password" placeholder="Password"/>
             </div>
-           <div class="contact__registr">
-           <textarea class="registr com__registr" name="Messange" id="Messange" placeholder="Messange"></textarea>
+           <div class="contact__wrapper-textarea">
+           <textarea class="contact__textarea contact__field" name="Messange" id="Messange" placeholder="Messange"></textarea>
            </div>
        </div>
         <button class="contact__btn">Send Message</button>
+    </form>
     </div>
  </section>
 

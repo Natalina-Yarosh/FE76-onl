@@ -341,7 +341,6 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
 }
 
 .banner{
-    text-align: left;
     padding: 306px 0 186px;
     background-image: url(../assets/town.png);
     background-repeat: no-repeat;
@@ -419,12 +418,12 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     background-color: #EC7979;
    
 }
-.banner__account-form{
+.banner__form form{
     max-width: 470px;
     width: 100%;
     background-color: #FFFFFF;
     border-radius: 10px;
-    padding: 36px 50px 75px;
+    padding: 36px 50px 135px;
     position: relative;
 }
 .form__title{
@@ -454,25 +453,23 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
   bottom: 0;
   left: 0;
 }
-.form{
+.form__input{
     border: none; 
     font-size: 14px;
     line-height: 19px;
     color: #000;
     font-family: "Open Sans", sans-serif;
     border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 16px;
+    padding: 16px 0;
+
      outline: none;
 
 }
 
-.form__registration{
+.form__inputs{
     display: flex;
     flex-direction: column;
-    gap: 31px;
-    max-width: 370px;
-    width: 100%;
-    margin-bottom: 60px;
+    gap: 15px
    
 }
 
@@ -567,30 +564,38 @@ box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
     border: 2px solid #EC7979;
     background-color: #FFFFFF;
 }
-.contact__enrol{
+.contact__fields{
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-bottom: 50px;
 }
-.contact__registr{
+.contact__wrapper-inputs{
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 27px;
+    flex: 0 1 570px;
+}
+.contact__wrapper-textarea{
+    display: flex;
     flex: 0 1 570px;
 }
 
-.com__registr{
+.contact__textarea{
     min-height: 210px;
     resize: none;
 }
-.registr{
+.contact__field{
     font-family: "Open Sans", sans-serif;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding: 16px 10px;
+    padding: 16px 0px;
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
     outline: none;
 }
-.registr::placeholder{
+.contact__field::placeholder{
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
