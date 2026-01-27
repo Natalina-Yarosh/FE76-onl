@@ -150,12 +150,11 @@ body{
 }
  .plan:last-child{
     margin-right: 0;
- }
-
-
-
-
-
+}
+.plan:hover{
+transform: translateY(-20px);
+box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+}
 
 .header{
     background-color: #000;
@@ -185,6 +184,9 @@ body{
     font-family: "Open Sans", sans-serif;
     line-height: 19px;
     text-decoration: none;
+}
+.nav__link:hover{
+    color: #EC7979;
 }
 
 
@@ -229,6 +231,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.social__link:hover path { 
+    fill: #EC7979;
+}
 
 
 .footer{
@@ -260,6 +265,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.footer__link:hover path { 
+    fill: #EC7979;
+}
 
 
 .customer__text::after{
@@ -279,12 +287,12 @@ body{
     padding: 100px 0;
     text-align: center;
 }
-.customer__team{
+.customers__team{
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
-.customer__bio{
+.customer{
    flex: 0 1 370px;
 }
 .customer__text{
@@ -330,4 +338,266 @@ body{
     height: 70px;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.banner{
+    padding: 306px 0 186px;
+    background-image: url(../assets/town.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+} 
+.banner::before{ 
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   
+} 
+    
+.banner__container{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.banner__logo{
+    width: 170px;
+    height: 55px;
+    margin-bottom: 73px;
+    object-fit: contain;
+}
+.banner__title{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 670px;
+    margin-bottom: 97px;
+    position: relative;
+}
+.banner__title::after{
+    content: '';
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+
+}
+.banner__text{
+    max-width: 270px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 42px;
+    
+}
+.banner__btn{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 17px 10px;
+    max-width: 270px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+
+}
+.banner__btn:hover{
+    background-color: #EC7979;
+   
+}
+.form{
+    max-width: 470px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 36px 50px 135px;
+    position: relative;
+}
+.form__title{
+   font-size: 24px;
+   line-height: 33px;
+   font-family: "Open Sans", sans-serif;
+   color: #000;
+   font-weight: 700;
+   margin-bottom: 75px;
+   text-transform: uppercase;
+}
+.pink{
+ color: #EC7979;
+}
+.form__btn{
+  background-color: #EC7979;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid #EC7979;
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding: 19px 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.form__input{
+    border: none; 
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 16px 0;
+
+     outline: none;
+
+}
+
+.form__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+   
+}
+
+.design{
+    text-align: center;
+    background-image: url(../assets/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding: 70px 0;
+    position: relative;
+}
+.design::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.design__container{
+    z-index: 1;
+    position: relative;
+
+     align-items: center;
+}
+.design__title{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+    margin-bottom: 80px;
+  
+}
+.design__title::after{
+    content: '';
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.design__text{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+  
+}
+.design__btn{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 17px 10px;
+    max-width: 370px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.contact{
+    text-align: center;
+    padding: 100px 0 146px;
+}
+.contact__registr{
+    margin-bottom: 50px;
+}
+.contact__btn{
+    background-color: #EC7979;
+    border: 2px solid #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 17px 10px;
+    max-width: 370px;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+.contact__btn:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+    background-color: #FFFFFF;
+}
+.contact__fields{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contact__wrapper-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    flex: 0 1 570px;
+}
+.contact__wrapper-textarea{
+    display: flex;
+    flex: 0 1 570px;
+}
+
+.contact__textarea{
+    min-height: 210px;
+    resize: none;
+}
+.contact__field{
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 16px 0px;
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+    outline: none;
+}
+.contact__field::placeholder{
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    font-family: "Open Sans", sans-serif;
 }
