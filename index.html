@@ -17,11 +17,11 @@
 
 <body>
 
-    <!-- Шапка сайта -->
+    <!-- header -->
     <header class="header">
         <div class="container">
             <div class="header__flex-wrapper">
-                <a class="header__logo" href="#" aria-label="AXIT">
+                <a class="header__logo" href="#axit" aria-label="AXIT">
                     <svg class="header__image" width="87" height="31" viewBox="0 0 87 31" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -41,24 +41,69 @@
                             <a class="header__nav-link" href="#">features</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">about</a>
+                            <a class="header__nav-link" href="#about">about</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">pricing</a>
+                            <a class="header__nav-link" href="#pricing">pricing</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">reviews</a>
+                            <a class="header__nav-link" href="#reviews">reviews</a>
                         </li>
                         <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">contact</a>
+                            <a class="header__nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <!-- Раздел media -->
 
+    <!-- Раздел banner -->
+    <section class="banner" id="axit">
+        <div class="container">
+
+            <div class="banner__content">
+
+                <div class="banner__info">
+                    <div class="banner__wrapper-logo">
+                        <svg class="banner__logo" width="170" height="55" viewBox="0 0 170 55" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20.3089 0H31.161L51.3924 55H40.3853L35.2693 41.2887H16.0456L11.0071 55H0L20.3089 0ZM33.3314 33.7747L25.735 11.0775L17.8284 33.7747H33.3314Z"
+                                fill="white" />
+                            <path
+                                d="M63.165 0L76.8076 20.2958L90.3728 0H102L82.9313 27.8873L101.38 55H89.7526L76.8076 35.4789L63.7851 55H52.0804L70.5289 27.8873L51.4602 0H63.165Z"
+                                fill="white" />
+                            <path d="M107 55V0H117.64V55H107Z" fill="#EC7979" />
+                            <path d="M170 9.37324H152.499V55H141.936V9.37324H124.435V0H170V9.37324Z" fill="#EC7979" />
+                        </svg>
+                    </div>
+                    <h1 class="banner__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <p class="banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <button class="button banner__button">Download</button>
+                </div>
+
+                <form class="register-form">
+                    <div class="register-form__content">
+                        <h3 class="register-form__title">Try Your <span
+                                class="register-form__title register-form__title--red">FREE</span> Trial Today</h3>
+                        <div class="register-form__fields">
+                            <input class="register-form__input" type="text" name="username" placeholder="name"
+                                aria-label="Enter your name" minlength="2" required>
+                            <input class="register-form__input" type="email" name="email" placeholder="email"
+                                aria-label="Enter your email" required>
+                            <input class="register-form__input" type="password" name="password" placeholder="password"
+                                aria-label="Enter your password" minlength="5" required>
+                        </div>
+                    </div>
+                    <button class="register-form__submit" type="submit">Get Started</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел media -->
     <section class="media">
         <div class="container">
             <div class="media__flex-wrapper">
@@ -157,7 +202,7 @@
     </section>
 
     <!-- Раздел awesome -->
-    <section class="awesome">
+    <section class="awesome" id="about">
 
         <div class="container">
 
@@ -196,9 +241,8 @@
         </div>
     </section>
 
-
-    <!-- Домашняя работа к 3 уроку -->
-    <section class="pricing">
+    <!-- Раздел pricing -->
+    <section class="pricing" id="pricing">
 
         <div class="container">
 
@@ -253,9 +297,9 @@
             </div>
         </div>
     </section>
-    <!-- customers -->
 
-    <section class="customers">
+    <!-- Раздел customers -->
+    <section class="customers" id="reviews">
         <div class="container">
             <h2 class="title title__separator">what our customers are saying</h2>
             <p class="text text--margin-bottom-83">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -324,6 +368,37 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- Раздел design -->
+    <section class="design">
+        <div class="container">
+            <h2 class="title design__title">STYLISH AXURE DESIGN</h2>
+            <p class="text design__text">Use the sections you need, remove the ones you don't. Create gorgeous
+                prototypes faster than ever!</p>
+            <button class="button design__button">Download</button>
+        </div>
+    </section>
+
+    <!-- Раздел contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="title contact__title">contact us</h2>
+            <p class="text text--margin-bottom-89">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <form class="form">
+                <div class="form__rows">
+                    <div class="form__area">
+                        <input class="form__input" type="text" name="username" placeholder="name" minlength="2"
+                            required>
+                        <input class="form__input" type="email" name="email" placeholder="email" required>
+                        <input class="form__input" type="password" name="password" placeholder="password" minlength="5"
+                            required>
+                    </div>
+                    <textarea class="form__textarea" name="message" placeholder="message" required></textarea>
+                </div>
+                <button class="form__submit" type="submit">send message</button>
+            </form>
     </section>
 
     <!-- footer -->
