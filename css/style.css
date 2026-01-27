@@ -6,20 +6,262 @@
 body{
     font-family: "Raleway", sans-serif;
 }
+/*--------------------General classes----------------*/
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px; 
+}
+/*-----------------------HEADER---------------------*/
+.homepage{
+    max-width: 1510px;
+    margin: 0px auto;
+}
+.header{
+    background-color: #000 ; 
+    padding: 22px 0;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .header__logo{
+    max-width: 87px;
+    display: flex;
+}
+ .header__nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav__link{
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+     font-size: 14px;
+    font-weight: 600;
+    line-height: 19px ;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: #bfbbbb;
+ }
+ .nav__link:active{
+    font-weight: 800;
+ }
+/*-----------------<!--BANNER-->---------------*/
+.banner{
+    background-image: url(../img_hw5/image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 306px 0 185px;
+}
+.banner::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.container__banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+}
+/*--------LEFT--------*/
 
-/*Why this is awesome*/
+.banner-promo__logo{
+    max-width: 170px;
+    margin-bottom: 73px;
+    display: flex;
+}
+.banner__title{
+    max-width: 670px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-bottom: 97px;
+    position: relative;
+}
+.banner__title::after{
+    content: '';
+    display: block;
+    width: 170px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+}
+.banner__text{
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 270px;
+    margin-bottom: 42px;
+    color: #fff;
+}
+.button{
+    width: 100%;
+    max-width: 270px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px; 
+    font-weight: 600;
+    color: #fff;
+    padding: 16px;
+}
+.button:hover{
+    border: 2px solid #EC7979;
+    color: #EC7979;
+}
+.button:active{
+    color: #fff;
+    background:  #ab4949;
+}
+/*------------RIGHT------------*/
+
+.banner__form{
+    max-width: 470px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 36px 50px 135px 50px;
+    overflow: hidden;
+}
+.form__title {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.form__title-accent{
+    color: #EC7979;
+} 
+.form__input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 16px 0;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+}
+.form__input:last-of-type{
+    margin-bottom: 0px;
+}
+.block .form__btn{
+    flex: 0 1 370px; 
+}
+.form__input::placeholder{
+    color: #BDBDBD;
+}
+.form__btn{
+    background-color: #EC7979;
+    color: #fff;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    position: absolute;
+    display: block;
+    width: 100%;
+    outline: none;
+    /*border-radius: 0 0 10px 10px; - заменим на overflow:hidden у родителя*/
+    left: 0;
+    bottom: 0;
+}
+.form__input:hover{
+    background-color:#F5F5F5;
+}
+.form__input:focus{
+    font-weight: 600;
+}
+.form__btn:hover{
+    background-color: #AB4949;
+}
+.form__btn:active{
+    box-shadow: inset 0px 0px 10px #EC7979;
+    transform: translateY(3px);
+}
+/*--------------------SOCIAL------------------*/
+.social{
+    background-color: #F5F5F5;
+    padding: 32px 0 14px;
+}
+.social__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.social__info{
+    max-width: 470px;
+}
+.social__title{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px; 
+    color: #333333;
+    margin-bottom: 16px;
+}
+.social__subtitle{
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    opacity: 40%;
+}
+.social__icons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.social .icon-link{
+    width: 70px;
+    height: 70px;
+}
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    /*object-position: center;   ---для img 
+    width: 100%;
+    height: 100%;
+    object-fit: contain;*/
+}
+.icon-link:hover path{
+    fill: #86878B;
+}
+/*--------------------Why this is awesome-------------------------*/
 .features {
-   /* max-width: 1200px;
-    margin: 0 auto;*/
     padding: 100px 0;
     text-align: center;
-    /*font-weight: 400;*/
 }
 .heading {
-    /*max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;*/
     margin-bottom: 92px;
+    text-align: center;
 }
 .heading__title {
     text-transform: uppercase;
@@ -27,8 +269,6 @@ body{
     font-weight: 400;
     line-height: 42px;
     margin-bottom: 40px;
-    /*width: 1170px;
-    height: 45px;*/
 }
 .heading__line {
     height: 1px;
@@ -40,15 +280,16 @@ body{
     font-size: 18px;
     color: #86878B;
     line-height: 21px;
-    /* width: 1169px;
-    height: 21px;*/
+}
+.feature{
+    flex:0 1 370px
 }
 .features__box {
   display: flex;
     column-gap: 27px;
      justify-content: center;
     align-items: flex-start;
-    /*position: relative;*/
+    margin-top: 92px;
 }
 .feature__wrapper-icon{
     width: 92px;
@@ -78,50 +319,31 @@ body{
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    margin-bottom: 26px;
+    margin-bottom: 26px; 
 }
 .feature__text {
     font-size: 18px;
     line-height: 21px;
 }
 
-/*Pricing Options*/
+/*--------------------------Pricing Options---------------------*/
 .tariffs{
     background-color: #F5F5F5;
     padding:  82px 0px 83px;
     text-align: center;
-     }
-.container{
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 0px 15px; 
-}
-.tariffs__title{
-    font-size: 36px;
-    line-height: 42px;
-    text-transform: uppercase;
-   font-weight: 400;
-   margin-bottom: 40px;
-}
-.tariffs__line{
-    height: 1px;
-    width: 170px;
-    background-color: #EC7979;
-    margin: 0 auto 40px;
-}
-.tariffs__text{
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B; 
-    margin-bottom: 79px;
 }
 .tariffs__plans{
     display: flex;
     column-gap: 30px;
     justify-content: center;
     align-items: flex-start;
-    /* position: relative;
-    border: 2px solid #F5F5F5;*/
+}
+.tariffs .heading__text{
+    margin-bottom: 79px;
+}
+.plan:hover{
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2)); /*=box-shadow:0px 4px 10px rgba(51, 51, 51, 0.2)*/
+    transform: translateY(-20px);
 }
 .plan{
    max-width: 370px; 
@@ -132,19 +354,15 @@ body{
     font-weight: 700;
     font-size: 24px;
     line-height: 34px;
-   /* width: 370px; /*max-width ?
-    height: 60px;*/
     padding: 11px 10px;
     color: #FFFFFF;
     background-color: #333333;
-   border: 2px solid #F5F5F5;
+    border: 2px solid #F5F5F5;
 }
 .plan__amount{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    /*width: 370px; /*max-width ?
-    height: 100px;*/
     padding: 27px 10px;
     color: #FFFFFF;
     background-color: #333333;
@@ -153,8 +371,6 @@ body{
 .plan__description{
     font-size: 18px;
     line-height: 22px;
-   /* width: 370px; /*max-width ?*
-    height: 50px;*/
     padding: 12px 10px; /*уменьшаем, чтобы попасть в размеры окна 370*100*/
     color: rgba(255, 255, 255, 50%);
     background-color: #333333;
@@ -170,4 +386,195 @@ body{
     border-width: 2px;
     text-transform:capitalize;
     border: 2px solid #F5F5F5;
+}
+
+/*-------------------------What our customers are saying--------------*/
+  .customers{
+    text-align: center;
+    padding:  100px 0px;
+}  
+.customers .heading__text{
+    margin-bottom: 83px;
+}
+.customers__box{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.customer{
+    flex: 0 1 370px;
+}
+.customer__text{
+    background-color: #E2E2E2;
+   border-radius: 10px;
+   font-size: 18px;
+    line-height: 21px;
+    padding: 38px 25px 37px;
+    color: #86878B;
+    position: relative;
+    margin-bottom: 70px;
+}
+.customer__text::before{
+    content: '';  
+    width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
+    /*margin-left: 70px;
+    margin-bottom: 66px;*/
+    position: absolute;
+    left: 70px;
+    top: 100%;
+}
+.customer__info{
+   display: flex;
+   column-gap: 30px;
+   text-align: left;
+}
+.customer__wrapper-icon{
+   width: 70px; 
+   height: 70px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.customer__icon{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} 
+.customer__name{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 18px;
+   }
+.customer__status{
+    font-size: 18px;
+    line-height: 21px;
+}
+/*------------------------Design---------------------*/
+.design{
+    background-image: url(../img_hw7/image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    padding: 70px 0;
+}
+.design::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.desing__container{
+    z-index: 1;
+    position: relative;
+}
+.design__title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.design__title::after{
+    content: '';
+    display: block;
+    width: 170px;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:-40px;
+}
+.design__text {
+    font-size: 18px;
+    line-height: 21px;
+}
+.design__btn{
+    max-width: 370px;
+    border: 2px solid #fff ;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    padding: 16px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*------------------------Contact us------------------*/
+
+.contact{
+    padding: 100px 0;
+}
+.contact__fields{
+    margin-bottom: 50px;
+    display: flex;
+    column-gap: 30px;
+}
+.contact__inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px ;
+    flex: 0 1 571px;
+}
+.contact .form__input{
+    margin: 0;
+}
+.contact__form-textarea{
+     flex: 0 1 571px;
+}
+.contact__textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    padding: 16px 0; 
+    resize: none;
+    min-height: 241px;
+}
+.contact__btn{
+    max-width: 370px;
+    border-radius: 0px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*--------------------------Footer---------------------*/
+.footer{
+    background-color: #000;
+    padding: 35px 0 27px;
+}
+ .footer__icons{ 
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+    margin-bottom: 28PX;
+}
+.footer .icon-link{
+  width: 53px; 
+  height: 53px; 
+}
+.footer__production{
+    color: rgba(217, 217, 217, 50%);
+    text-align: center;
 }
