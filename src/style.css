@@ -168,8 +168,15 @@ body{
     display: flex;
     gap: 30px;
 }
+
+.plan:hover{
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    position: relative;
+    top: -20px;
+}
 .price__header{
     margin-bottom: 79px;
+
 }
 
 .plan{
@@ -331,3 +338,351 @@ body{
     text-align: center;
 }
 
+/*Banner*/
+.banner{
+    padding: 306px 0 185px;
+    background-image: url(../src/icon/image.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.banner__logo{
+    width: 170px;
+    max-height: 55px;
+    margin-bottom: 73px;
+    display: flex;
+}
+
+.banner__img{
+    width: 100%;
+}
+
+.banner__title{
+    margin-bottom: 55px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color:#fff;
+    text-transform: uppercase;
+    position: relative;
+    max-width: 670px;
+}
+
+.banner__underline{
+    width: 170px;
+    border: 1px solid #fff;
+    margin-bottom: 42px;
+}
+
+.banner__text{
+    color:#fff;
+    margin-bottom: 42px;    
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 270px;
+}
+
+.banner__btn{
+    font-family: "Open Sans", sans-serif;
+    max-width: 270px;
+    width: 100%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+.banner__wrapper-form{
+    max-width: 450px;
+    width: 100%;
+    background-color:#fff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+.banner__form{
+    padding: 0 50px;
+    margin-bottom: 75px;
+}
+.banner__form-title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform:uppercase;
+    margin-bottom: 75px;
+    color:#333
+}
+
+
+.banner__form-title--red{
+    color:#EC7979;
+}
+
+.banner__input{
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 15px;
+    width: 100%;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 16px 0px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.banner__input:last-of-type{
+    margin: 0;
+}
+
+
+
+.banner__input::placeholder{
+    color: #BDBDBD;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner__input:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
+}
+
+
+
+.banner__form-btn{
+    background-color:#EC7979;
+    color:#fff;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 0px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.banner__form-btn:hover {
+    background-color: #c0392b;
+    transform: t translate(-2px);
+}
+
+
+
+
+/*design*/
+
+.design{
+    padding: 70px 0;
+    background-image: url(../src/icon/image2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.design::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.design__container{
+    z-index: 1;
+    position: relative;
+}
+
+.design__title{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.design__underline{
+    width: 170px;
+    border: 1px solid #fff;
+    margin: 0 auto 40px;
+}
+
+.design__text{
+    color:#fff;
+    margin-bottom: 80px;    
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.design__btn{
+    font-family: "Open Sans", sans-serif;
+    max-width: 370px;
+    width: 100%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    padding: 16px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+}
+ /*CONTACT*/
+
+ .contact{
+    padding: 100px 0 146px;
+    text-align: center;
+}
+
+.contact__header{
+    margin-bottom: 89px;
+}
+
+.form__area {
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    flex: 0 1 571px;
+}
+
+.contact__fields {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    flex: 0 1 571px;
+}
+
+.form__place{
+     display: flex;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.contact__input, .contact__textarea{
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    color: #BDBDBD;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 16px 0px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contact__input::placeholder, .contact__textarea::placeholder{
+    color: #BDBDBD;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contact__textarea{
+    flex: 0 1 569px;
+    resize: none;
+    padding: 16px 0;
+
+}
+.contact__input:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
+}
+
+.contact__input::placeholder {
+    color: #adb5bd;
+}
+
+
+.contact__textarea:focus {
+    outline: none;
+    border-color: #e74c3c;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
+}
+
+.contact__textarea::placeholder {
+    color: #adb5bd;
+
+}
+
+
+.contact__btn {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    max-width: 370px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #EC7979;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact__btn:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+
+
+.banner__btn:hover, .design__btn:hover{
+    background-color:#AB4949;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.banner__btn:active, .design__btn:active{
+    background-color:#EC7979;
+}
+
+.media__img:hover, .footer__img:hover{
+    fill: #EC7979;
+}
+
+.nav__link:hover{
+    color: #EC7979;
+}
