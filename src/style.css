@@ -417,37 +417,41 @@ body{
     text-transform: capitalize;
     display: inline-block;
     text-align: center;
+    line-height: 25px;
     
 }
 
-.banner__form{
-    height: 470px;
+.banner__wrapper-form{
     max-width: 450px;
     width: 100%;
     background-color:#fff;
     text-align: center;
     border-radius: 10px;
-    position: relative;
     overflow: hidden;
+    padding-top: 36px;
 }
 
-.banner-form__title{
+.banner__form{
+    padding: 0 50px;
+    margin-bottom: 75px;
+}
+.banner__form-title{
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 33px;
     text-transform:uppercase;
-    margin: 36px 0 75px;
+    margin-bottom: 75px;
     color:#333
 }
 
-.banner-form__title--red{
+
+.banner__form-title--red{
     color:#EC7979;
 }
 
-.banner-form__input{
+.banner__input{
     font-family: "Open Sans", sans-serif;
     margin-bottom: 15px;
-    max-width: 370px;
     width: 100%;
     color: #BDBDBD;
     border: none;
@@ -457,14 +461,18 @@ body{
     line-height: 19px;
 }
 
+.banner__input:last-of-type{
+    margin: 0;
+}
 
 
-.banner-form__input::placeholder{
+
+.banner__input::placeholder{
     color: #BDBDBD;
     font-family: "Open Sans", sans-serif;
 }
 
-.banner-form__input:focus {
+.banner__input:focus {
     outline: none;
     border-color: #e74c3c;
     box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
@@ -472,7 +480,7 @@ body{
 
 
 
-.banner-form__btn{
+.banner__form-btn{
     background-color:#EC7979;
     color:#fff;
     width: 100%;
@@ -481,17 +489,13 @@ body{
     line-height: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    margin: auto;
     border: 0px;
-    height: 60px;
-    position: relative;
-    top: 65px;
-    left: 0px;
+    padding: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.banner-form__btn:hover {
+.banner__form-btn:hover {
     background-color: #c0392b;
     transform: t translate(-2px);
 }
@@ -558,11 +562,12 @@ body{
     background-color: transparent;
     font-size: 18px;
     color: #fff;
-    padding: 15px 10px;
+    padding: 16px 10px;
     text-decoration: none;
     text-transform: capitalize;
     display: inline-block;
     text-align: center;
+    line-height: 22px;
 }
  /*CONTACT*/
 
@@ -578,11 +583,11 @@ body{
 .form__area {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 34px;
     flex: 0 1 571px;
 }
 
-.contact-form__row {
+.contact__fields {
     display: flex;
     flex-direction: column;
     row-gap: 50px;
@@ -595,9 +600,8 @@ body{
     margin-bottom: 50px;
 }
 
-.contact-form__input, .contact-form__textarea{
+.contact__input, .contact__textarea{
     font-family: "Open Sans", sans-serif;
-    margin-bottom: 35px;
     width: 100%;
     color: #BDBDBD;
     border: none;
@@ -607,58 +611,59 @@ body{
     line-height: 19px;
 }
 
-.contact-form__input::placeholder, .contact-form__textarea::placeholder{
+.contact__input::placeholder, .contact__textarea::placeholder{
     color: #BDBDBD;
     font-family: "Open Sans", sans-serif;
 }
 
-.contact-form__textarea{
+.contact__textarea{
     flex: 0 1 569px;
     resize: none;
-    padding: 8px 0;
+    padding: 16px 0;
 
 }
-.contact-form__input:focus {
+.contact__input:focus {
     outline: none;
     border-color: #e74c3c;
     box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
 }
 
-.contact-form__input::placeholder {
+.contact__input::placeholder {
     color: #adb5bd;
 }
 
 
-.contact-form__textarea:focus {
+.contact__textarea:focus {
     outline: none;
     border-color: #e74c3c;
     box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1);
 }
 
-.contact-form__textarea::placeholder {
+.contact__textarea::placeholder {
     color: #adb5bd;
 
 }
 
 
-.contact-form__btn {
+.contact__btn {
     display: block;
     font-family: "Open Sans", sans-serif;
-    width: 370px;
+    max-width: 370px;
+    width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 16px;
     background-color: #EC7979;
     color: white;
     border: none;
     font-size: 18px;
     font-weight: 500;
-    line-height: 25px;
-    text-transform: uppercase;
+    line-height: 26px;
+    text-transform: capitalize;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.contact-form__btn:hover {
+.contact__btn:hover {
     background-color: #c0392b;
     transform: translateY(-2px);
 }
