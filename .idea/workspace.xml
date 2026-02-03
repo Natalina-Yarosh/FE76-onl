@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b6447eb-f065-4843-94b6-a95d73864a8e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Kuprenkovs__hw5-6&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Kuprenkovs__hw7-8&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/dkuprenkovs/Documents/TMS/axit&quot;,
@@ -82,7 +80,8 @@
       <workItem from="1768659880849" duration="7000" />
       <workItem from="1768675381893" duration="8879000" />
       <workItem from="1768844371366" duration="367000" />
-      <workItem from="1769277339686" duration="2303000" />
+      <workItem from="1769277339686" duration="17555000" />
+      <workItem from="1769962301898" duration="624000" />
     </task>
     <servers />
   </component>
