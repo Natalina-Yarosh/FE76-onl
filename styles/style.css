@@ -351,6 +351,10 @@ body{
     text-align: center;
 }
 
+.design__heading.heading{
+    margin-bottom: 80px
+}
+
 .design__title {
     text-transform: uppercase;
     font-size: 36px;
@@ -374,7 +378,6 @@ body{
 .design__text {
     font-size: 18px;
     line-height: 21px;
-    margin-bottom: 80px
 }
 
 .design__btn{
@@ -399,6 +402,7 @@ body{
 
 .heading{
     text-align: center;
+    margin-bottom: 89px;
 }
 
 .heading__title{
@@ -425,7 +429,6 @@ body{
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
-    margin-bottom: 89px;
 }
 
 .contact__field{
